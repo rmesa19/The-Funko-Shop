@@ -1,0 +1,28 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginTitle{
+
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.loginInput{
+
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton{
+    margin-bottom: 10px;
+}

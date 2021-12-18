@@ -1,0 +1,54 @@
+POST http://localhost:3000/auth/register
+content-type: application/json
+
+{
+    "username": "sample4",
+    "email": "test4@gmail.com",
+    "password": "test"
+}
+###
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "username": "sample4",
+    "email": "test4@gmail.com",
+    "password": "test"
+}
+
+
+###
+GET http://localhost:3000/users/61b792153753bb4b9cd18970
+content-type: application/json
+
+{
+    "username": "sample3",
+    "email": "test3@gmail.com",
+    "password": "test"
+}
+
+
+###
+
+POST http://localhost:3000/inventory/add
+content-type: application/json
+
+     {
+            "name":"Gollum",
+            "description":"Gollum",
+            "number":532,
+            "link":"https://www.funko.com/products/movies/pop/the-lord-of-the-rings/pop-movies-lotr-hobbit-s3-gollum-w-chase",
+            "image":"images/Gollum.png",
+            "category":"LotR"
+        }
+###
+
+PUT http://localhost:3000/users/61b792153753bb4b9cd18970
+content-type: application/json
+
+{
+
+    "username": "sample3",
+    "email": "test3@gmail.com",
+    "password": "test"
+}
