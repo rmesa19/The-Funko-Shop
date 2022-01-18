@@ -11,9 +11,9 @@ POST http://localhost:3000/auth/login
 content-type: application/json
 
 {
-    "username": "sample4",
-    "email": "test4@gmail.com",
-    "password": "test"
+    "username": "grimes",
+    "email": "grimes@gmail.com",
+    "password": "grimes"
 }
 
 
@@ -52,3 +52,9 @@ content-type: application/json
     "email": "test3@gmail.com",
     "password": "test"
 }
+
+###
+GET http://localhost:3000/inventory
+content-type: application/json
+
+
